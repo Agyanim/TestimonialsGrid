@@ -32,6 +32,10 @@ body {
 .container div {
   border-radius: 5px;
   border: none;
+  transition: 0.5s all;
+}
+.container div:hover{
+  transform: scale(1.02);
 }
 .container h3{
   font-weight: 400;
